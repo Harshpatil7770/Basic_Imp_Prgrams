@@ -1,0 +1,51 @@
+package com.java.gene_setter_getter;
+
+import java.util.List;
+
+public class Employee {
+
+	private int empId;
+
+	private String empName;
+
+	private List<Address> addressLists;
+
+	public Employee() {
+		super();
+	}
+
+	public Employee(int empId, String empName, List<Address> addressLists) {
+		this.empId = empId;
+		this.empName = empName;
+		this.addressLists = addressLists;
+	}
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+	public List<Address> getAddressLists() {
+		return addressLists;
+	}
+
+	public void setAddressLists(List<Address> addressLists) {
+		this.addressLists = addressLists;
+	}
+
+	public String toString() {
+		return "EmpId " + empId + " " + "EmpName " + empName + " " + "List<Address> " + addressLists;
+	}
+
+}

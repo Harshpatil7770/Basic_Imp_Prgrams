@@ -1,0 +1,5 @@
+package com.java.method_hiding;
+
+public class Manager {
+
+}

@@ -1,0 +1,16 @@
+package com.java.composition;
+
+import javax.print.attribute.standard.MediaSize.Engineering;
+
+public class Car {
+
+	private String carName;
+
+	private int modelNumber;
+
+	private Engine engine;
+
+	public Car() {
+		engine = new Engine();
+	}
+}

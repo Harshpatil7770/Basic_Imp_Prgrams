@@ -1,0 +1,8 @@
+package com.java.assocation.aggreation;
+
+public class student {
+
+	private int id;
+	
+	pr
+}

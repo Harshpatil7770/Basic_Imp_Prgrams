@@ -1,0 +1,14 @@
+package com.java.serilization;
+
+public class Employee {
+
+	private int id;
+	
+	private String name;
+	
+	transient private static String collegeName="Sangmeshwar college solapur";
+	
+	private final String collegeCode="SCS001";
+	
+	
+}

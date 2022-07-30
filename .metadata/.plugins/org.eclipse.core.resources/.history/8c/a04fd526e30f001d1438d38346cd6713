@@ -1,0 +1,29 @@
+package com.java.occurance_of_words;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		String str = "Hi hello message hello say hi hello Hello";
+		String words[] = str.toLowerCase().split("\\s");
+		String dup = "";
+
+		for (int i = 0; i < words.length; i++) {
+			int count = 0;
+			for (int j = i + 1; j < words.length - 1; j++) {
+				if (words[i].equals(words[j])) {
+					count++;
+				}
+			}
+
+			if (count > 0) {
+				if (dup.isEmpty()) {
+					dup = dup + " " + words[i] + " " + count;
+				} else if (!dup.matches("(.*)" + words[i] + "(.*)")) {
+					dup = dup + " " + words[i] + " " + count;
+				}
+			}
+		}
+		System.out.println(dup);
+	}
+}

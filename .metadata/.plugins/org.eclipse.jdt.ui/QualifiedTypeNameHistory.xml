@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.java.gene_setter_getter.Employee"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.MediaSize.Engineering"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.awt.image.SinglePixelPackedSampleModel"/>
+    <fullyQualifiedTypeName name="com.java.singleton.Singleton"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="com.java.serilization.Address"/>
+    <fullyQualifiedTypeName name="com.java.serilization.Employee"/>
+    <fullyQualifiedTypeName name="com.java.shallowcopy.Test"/>
+    <fullyQualifiedTypeName name="com.java.method_hiding.Employee"/>
+    <fullyQualifiedTypeName name="com.java.method_hiding.Manager"/>
+    <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+</qualifiedTypeNameHistroy>

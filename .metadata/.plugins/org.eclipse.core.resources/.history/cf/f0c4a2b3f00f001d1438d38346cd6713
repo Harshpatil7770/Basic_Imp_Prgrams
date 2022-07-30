@@ -1,0 +1,10 @@
+package com.java.serilization;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Address address = new Address("101A", "Bhosale galli", "Masale chaudhari");
+
+		
+	}
+}
