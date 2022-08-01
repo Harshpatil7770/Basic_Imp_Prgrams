@@ -17,4 +17,6 @@
     <fullyQualifiedTypeName name="com.java.method_hiding.Employee"/>
     <fullyQualifiedTypeName name="com.java.method_hiding.Manager"/>
     <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
